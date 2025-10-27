@@ -1,0 +1,22 @@
+* 4ddeef1 (HEAD -> main, origin/main) docs: Add changelog
+* 1d0ee7f Added GIT_JOURNEY.md
+| * 7ed5557 (origin/feature/another-feature) feat: Add test feature
+|/  
+* 1322267 (tag: v1.1.0, tag: v1.0.0, feature/another-feature) docs: Update README
+* 8614557 feat: Add new feature
+* fc78dd6 docs: Add FAQ section
+| * b8c34a4 (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+|/  
+* 6a11ca6 checkpoint 3 images is added after merging the main and conflict-simulator
+*   c974bfd merge: Resolve all conflicts between main and conflict-simulator branches
+|\  
+| * d3dd9b2 (instructor/conflict-simulator) updating conflict-simulator
+* | d8c2eae merge: Resolve all conflicts between main and dev branches
+* |   aafc7df merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (instructor/dev) updating dev
+| |/  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
