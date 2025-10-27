@@ -43,42 +43,42 @@ merge conflicts across multiple branches using proper Git workflows.
 - **Resolution**: Created unified config with environment-based settings
 - **Strategy**: Keep production as default, add dev as optional
 - **Difficulty**: Medium
-- **Time**: 15 minutes
+- **Time**: 5 minutes
 
 #### Conflict 2: config/database-config.json
 - **Issue**: Different database hosts and SSL modes
 - **Resolution**: Created separate profiles for production and development
 - **Strategy**: Restructured JSON to support both environments
 - **Difficulty**: Medium
-- **Time**: 10 minutes
+- **Time**: 5 minutes
 
 #### Conflict 3: scripts/deploy.sh
 - **Issue**: Different deployment strategies (production vs docker-compose)
 - **Resolution**: Added conditional logic based on DEPLOY_ENV variable
 - **Strategy**: Made script handle both environments dynamically
 - **Difficulty**: Hard
-- **Time**: 20 minutes
+- **Time**: 5 minutes
 
 #### Conflict 4: scripts/monitor.js
 - **Issue**: Different monitoring intervals and log formats
 - **Resolution**: Environment-based configuration object
 - **Strategy**: Used process.env.NODE_ENV to determine behavior
 - **Difficulty**: Medium
-- **Time**: 15 minutes
+- **Time**: 5 minutes
 
 #### Conflict 5: docs/architecture.md
 - **Issue**: Different architectural descriptions
 - **Resolution**: Merged both descriptions into comprehensive document
 - **Strategy**: Created sections for each environment
 - **Difficulty**: Easy
-- **Time**: 10 minutes
+- **Time**: 5 minutes
 
 #### Conflict 6: README.md
 - **Issue**: Different feature lists and version numbers
 - **Resolution**: Combined all features with clear environment labels
 - **Strategy**: Organized features by category
 - **Difficulty**: Easy
-- **Time**: 10 minutes
+- **Time**: 5 minutes
 
 ### Merge 2: main + conflict-simulator (6 files)
 
